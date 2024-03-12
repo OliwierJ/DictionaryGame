@@ -1,40 +1,24 @@
 class EFDictionary
-
 {
-
 	private String englishWord;
 	private String frenchWord;
 
-	
-
 	public EFDictionary() // constructor
-	
-	
 	{
-	
-	
+
 	}
 	
-	
-	public EFDictionary (String theEnglish, String theFrench) // constructor
-	
-	
+	public EFDictionary (String theEnglish, String theFrench) // constructor	
 	{
 		englishWord = theEnglish;
-		frenchWord = theFrench;
-		
+		frenchWord = theFrench;	
 	}
 	
-	
-	// Mutators (Setter Methods)
-	
-	
+	// Mutators (Setter Methods)	
 	public void setEWord (String theEWord)
 	{
-	
 		englishWord = theEWord;
 	}
-	
 	
 	public void setFWord (String theFWord)
 	{
@@ -42,22 +26,14 @@ class EFDictionary
 		frenchWord = theFWord;
 	}
 	
-	
-	
 	//Selectors (Getter Methods) no parameters
-	
-	
 	public String getEWord ()
 	{
-	
 		return englishWord;
-	
 	}
 	
 	
 	public String getFWord ()
-	
-	
 	{
 	
 		return frenchWord;
@@ -81,8 +57,6 @@ class EFDictionary
 	}
 	
 	public String toString ()
-	
-	
 	{
 		String myString;
 		
@@ -92,5 +66,4 @@ class EFDictionary
 		
 		return myString;
 	}	
-
 }
